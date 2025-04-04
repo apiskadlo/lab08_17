@@ -51,7 +51,7 @@ void main()
     struct can2040_msg can_msg;
     struct can2040_msg msg;
 
-    msg.id = 0x001;
+    msg.id = 0x010;
     msg.dlc = 8;
     uint8_t buf[8] = {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07};
     for (int i = 0; i < 8; i++)
